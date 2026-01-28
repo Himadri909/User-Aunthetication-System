@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0b1d3a, #020617);
+  color: #f4f8ff;
+}
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0b1d3a;
+  font-weight: 800;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #ff8c00;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16.5px;
+  color: #dbe7ff;
+  transition: 0.25s;
+}
+
+.nav-links a:hover {
+  color: #ff8c00;
+}
+.nav-buttons {
+  display: flex;
+  gap: 12px;
+}
+.btn {
+  padding: 7px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.25s;
+  color: #ff8c00;
+  border: 1px solid #ff8c00;
+}
+/* container */
+.container {
+  width: 380px;
+  margin: 70px auto;
+  padding: 28px;
+  background: #0f2a52;
+  border-radius: 10px;
+  box-shadow: 0 0px 8px rgba(255, 140, 0, 0.2);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 12px;
+  font-weight: 700;
+  color: #ff8c00;
+}
+
+.container p {
+  text-align: center;
+  font-size: 14px;
+  color: #e2ecff;
+  margin-bottom: 20px;
+}
+
+/* form */
+.container input,
+.container select {
+  width: 100%;
+  padding: 11px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ff8c00;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box input {
+  padding-right: 40px;
+}
+
+.password-box i {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ff8c00;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.container input::placeholder {
+  color: #b8c7e6;
+}
+
+/* Buttons */
+.container button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  background: #ff8c00;
+  color: #ffffff;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.25s;
+  font-size: 16px;
+}
+
+.container button:hover {
+  background: #ffa733;
+}
+
+/* Logout Button */
+button.logout {
+  background: #c62828;
+  color: #fff;
+}
+
+button.logout:hover {
+  background: #e53935;
+}
+
+/* Links */
+.link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.link a {
+  color: #ff8c00;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
